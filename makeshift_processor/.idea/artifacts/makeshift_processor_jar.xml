@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="makeshift_processor:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/makeshift_processor_jar</output-path>
+    <root id="archive" name="makeshift_processor.jar">
+      <element id="module-output" name="makeshift_processor" />
+    </root>
+  </artifact>
+</component>

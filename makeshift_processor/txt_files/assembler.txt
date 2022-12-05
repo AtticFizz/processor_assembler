@@ -1,0 +1,40 @@
+
+memory:
+    int num_a 10
+    int num_b 40
+    int num_c 70
+    int two 2
+    int result 0
+    int jj 26
+end memory
+
+
+process:
+    move ax num_c
+    move cx num_a
+
+    loop:
+        add ax two
+    end loop
+
+    div num_b
+
+    move ax num_b
+    move bx num_b
+    add bx dx
+    move result bx
+    move cx result
+
+    addr ax num_b
+    addr num_a result
+    move bx num_a
+
+    move bx jj
+
+    jump jj
+
+    move cx 65535
+
+    move dx 65535
+
+end process
